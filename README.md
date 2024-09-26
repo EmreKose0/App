@@ -1,5 +1,5 @@
--Mkdir Opt/app_docs/dotnetproject/containers
-------------------docker-compose.yml--------------------
+Mkdir Opt/app_docs/dotnetproject/containers
+
 version: '3.4'
 networks:
   dev:
@@ -36,9 +36,8 @@ services:
       - dev
 volumes:
   app_data:
--------------------------------------------------------------------------
 
--docker-compose up -d 
+docker-compose up -d 
 
 
 
